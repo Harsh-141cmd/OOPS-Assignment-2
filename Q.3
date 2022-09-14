@@ -1,0 +1,22 @@
+/*Question 3. A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+              Ask user for quantity
+              Suppose, one unit will cost 100.
+              Judge and print total cost for user.
+*/
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter cost of the product");
+		int a = sc.nextInt();
+		
+		if(a>=1000){
+		    System.out.print("You're eligible for 10% of discount");
+		}
+		else
+		    System.out.print("You're not eligible for 10% of discount");
+	}
+}
